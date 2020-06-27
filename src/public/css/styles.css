@@ -1,0 +1,36 @@
+body {
+    background: #f5f6f5;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+.index{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.masterhead {
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url('/img/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*opacity: 0.3;*/
+}
+
+.masterhead h1{
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 992px){
+    .masterhead h1 {
+        font-size: 4.5rem;
+    }
+}
